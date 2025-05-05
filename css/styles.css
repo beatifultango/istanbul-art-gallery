@@ -27,18 +27,15 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  
-  
   z-index: 10;
 }
 
 .logo {
-  width: 50%;
+  max-width: 75%;
   height: auto;
-  max-width: 50%;
   display: flex;
   justify-content: center;
-  align-items: center;
+ 
 }
 
 .navbar-fluid {
@@ -175,11 +172,14 @@ button {
 }
 
 .first-div {
-  text-align: center;
   font-size: 2rem;
 }
-div .first-h1 {
-  text-align: left;
+.page-explain-first {
+  margin-bottom: 1em;
+}
+div .first-h3 {
+  text-align: center;
+  margin-bottom: 1em;
 }
 img {
   width: 100%;
@@ -408,8 +408,7 @@ footer {
   .logo {
     width: 250px;
   }
-  .navbar-fluid {
-  }
+ 
 
   .overlay ul {
     width: 65%;
@@ -435,9 +434,6 @@ footer {
     width: 100px;
   }
 
-  .navbar-close-menu {
-  }
-
   .close-icon .close {
     width: 50px;
   }
@@ -458,14 +454,11 @@ footer {
   .first-div {
     text-align: justify;
   }
-  .first-h1 {
-    text-align: start;
-    padding-left: 10px;
+  .first-h3 {
+    text-align: center;
     font-size: 50px;
   }
-  .page-explain {
-    font-size: 25px;
-  }
+ 
 
   .images {
     width: 700px;
@@ -549,8 +542,7 @@ footer {
   }
 
   .first-container {
-    text-align: start;
-    margin: 30px;
+    text-align: ;
   }
 
   .row {
